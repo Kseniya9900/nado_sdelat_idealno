@@ -1,12 +1,12 @@
 
 
-.main-container {
+.container {
  display: flex;
  justify-content: center;
 }
 
 
-.main-container-video {
+.container-video {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -16,7 +16,7 @@
 } 
 
 
-.main-container-video-title {
+.container-video-title {
   max-width: 739px;
   font-size: 116px;
   font-weight: 800;
@@ -28,11 +28,11 @@
   margin-top: 60px;
 }
 
-.main-container-video-title-two {
+.container-video-title-two {
   margin-right: 24px;
 } 
 
-.main-container-video-title-two::before {
+.container-video-title-two::before {
   content: "*";
   position: absolute;
   right: 27%;
@@ -41,11 +41,11 @@
   z-index: 1;
 }
 
- .main-container-video-title:hover {
+ .container-video-title:hover {
   color: #4C4C4C;
 }
 
-.main-container-video-title:hover::before {
+.container-video-title:hover::before {
   position: absolute;
   right: 36px;
   bottom: 62%;
